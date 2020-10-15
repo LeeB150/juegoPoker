@@ -59,4 +59,25 @@
 		text-decoration: none;
 		letter-spacing: .5px;
 	}
+	/* estilos cuerpo */
+	.cuerpo{
+		padding-top: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.juego{
+		/* background: crimson; */
+		display: flex;
+		justify-content: space-between;
+	
+	}
+	.card{
+		margin: 6px;
+	}
+
+	.card img{
+		width: 135px;
+		height: 210px;
+	}
 }

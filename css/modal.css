@@ -86,7 +86,7 @@
     .lbl-modal{
         background: rgba(212, 131, 131, 0.4);
         margin-left: 10px;
-        padding: 5px 7px 7px 5px; /*abajo|izquierda|derecha|xarriba */
+        padding: 5px 7px 7px 5px; /*abajo|izquierda|derecha|arriba */
         border-radius: 15px; /*arriba izquierda|arriba derecha|abajo derecha|abajo izquierda*/
         cursor: pointer;
 
