@@ -25,10 +25,6 @@
         opacity: 1;
         visibility: visible;
     }
-    #btn-modal-close:checked ~ .modal{
-        opacity: 0;
-        visibility: hidden;
-    }
 /* ------------------------------------------------------- */
     .contenedor{
         width: 400px;
@@ -37,7 +33,7 @@
         background:#fff;
         box-shadow: 1px 7px 35px rgba(0,0, 0,.6);
         transition: all 500ms ease;
-        border-radius: 9px;
+        border-radius: 25px;
         position: relative;
 
         transform: translateY(-30%);
@@ -59,19 +55,28 @@
         padding: 10px;
         background: #DB8046;
         color: #fff;
-        border-radius: 9px 9px 0px 0px;
+        border-radius: 25px 25px 0px 0px;
     }
 /* ------------------------------------------------------- */
-    .contenedor label{
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        color: #fff;
-        font-size: 15px;
-        cursor: pointer;
-    }
+.contenedor .x-cerrar{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background: rgba(233, 209, 209, .6);
+    padding: 9px;
+    position: absolute;
+    top: 0px;
+    right:0px;
+    font-weight: bold;
+}
 /* ------------------------------------------------------- */
-    #btn-modals,  #btn-modal2, #btn-modal3, #btn-modal4, #btn-modal5,
+    #btn-modal, #btn-modal2, #btn-modal3, #btn-modal4, #btn-modal5,
     #btn-modal6, #btn-modal7, #btn-modal8, #btn-modal9, #btn-modal10,
     #btn-modal11, #btn-modal12
     {
@@ -88,20 +93,7 @@
         opacity: 1;
         visibility: visible;
     }
-    .contenedor .x-cerrar{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        width: 30px;
-        height: 30px;
-        background: red;
-        padding: 9px;
-        position: absolute;
-        top: 3px;
-        right:1px;
-        font-weight: bold;
-    }
+    
     .contenido{
         /* width: 50%; */
         display: flex;
