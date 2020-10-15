@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/modal.css">
+
+
+	
+
+</head>
+<body>
+	
+	<h1 class="title">Valor de las Jugadas</h1>
+	<div class="container">
+		<input type="checkbox" id="btn-modal">		
+		<input type="checkbox" id="btn-modal2">		
+		<input type="checkbox" id="btn-modal3">		
+		<input type="checkbox" id="btn-modal4">		
+		<input type="checkbox" id="btn-modal5">	
+		<input type="checkbox" id="btn-modal6">		
+		<input type="checkbox" id="btn-modal7">		
+		<input type="checkbox" id="btn-modal8">		
+		<input type="checkbox" id="btn-modal9">		
+		<input type="checkbox" id="btn-modal10">		
+		<input type="checkbox" id="btn-modal11">		
+
+		<div class="header">
+			<div class="list">
+				<ul class="jugadas">	
+					<li><label for="btn-modal" class="lbl-modal" id="lblmodal">Escalera Real</lbl></li>
+					<li><label for="btn-modal2" class="lbl-modal">Repoker</label></li>
+					<li><label for="btn-modal3" class="lbl-modal">Escalera color</label></li>
+					<li><label for="btn-modal4" class="lbl-modal">Poker</label></li>
+					<li><label for="btn-modal5" class="lbl-modal">Full</label></li>
+					<li><label for="btn-modal6" class="lbl-modal">Color</label></li>
+				</ul>
+				<ul class="jugadas">
+					<li><label for="btn-modal7" class="lbl-modal">Escalera</label></li>
+					<li><label for="btn-modal8" class="lbl-modal">Trío</label></li>
+					<li><label for="btn-modal9" class="lbl-modal">Doble Pareja</label></li>
+					<li><label for="btn-modal10" class="lbl-modal">Pareja</label></li>
+					<li><label for="btn-modal11" class="lbl-modal">Carta más alta</label></li>
+				</ul>
+			</div>
+			<div class="baraja"><img src="images/card1.png"></div>
+		</div>
+
+		<!-- seccion de ventanas modal -->
+		<div class="modal" id="modal">
+			<div class="contenedor">
+				<header>Escalera Real</header>
+				<label for="btn-modal" class="x-cerrar" id="btnCerrar">X</label>
+				<div class="contenido">
+					<p class="desc">5 cartas seguidas del mismo palo desde el 10 al As.</p>
+					<img src="images/jugadas/escalera_real.png" alt="">
+					<p class="puntaje">100 creditos</p>
+				</div>
+			</div>
+		</div>
+		<div class="modal2">
+			<div class="contenedor">
+				<header>Repoker</header>
+				<label for="btn-modal2" class="x-cerrar">X</label>
+				<div class="contenido">
+					<p class="desc">4 cartas iguales más comodín. Esta combinación sólo es posible si se juega con comodín.</p>
+					<img src="images/jugadas/repoker.png" alt="">
+					<p class="puntaje">100 creditos</p>
+				</div>
+			</div>
+		</div>
+		<div class="modal3">
+			<div class="contenedor">
+				<header>Escalera de Color</header>
+				<label for="btn-modal3" class="x-cerrar">X</label>
+				<div class="contenido">
+					<p class="desc">5 cartas seguidas del mismo palo. El As puede formar escalera con el Rey y con el 2 (la carta de menor valor).</p>
+					<img src="images/jugadas/escalera-de-color.png" alt="">
+					<p class="puntaje">100 creditos</p>
+				</div>
+			</div>
+		</div>
+		<div class="modal4">
+			<div class="contenedor">
+				<header>Poker</header>
+				<label for="btn-modal4" class="x-cerrar">X</label>
+				<div class="contenido">
+					<p class="desc">4 cartas iguales.</p>
+					<img src="images/jugadas/poker.png" alt="">
+					<p class="puntaje">100 creditos</p>
+				</div>
+			</div>
+		</div>		
+		<div class="modal5">
+			<div class="contenedor">
+				<header>Full</header>
+				<label for="btn-modal5" class="x-cerrar">X</label>
+				<div class="contenido">
+					<p class="desc">3 cartas iguales más otras 2 iguales. Es decir, un trio y una pareja. En caso de empate, gana el que tiene el trio más alto.</p>
+					<img src="images/jugadas/Full.png" alt="">
+					<p class="puntaje">100 creditos</p>
+				</div>
+			</div>
+		</div>
+		<div class="modal6">
+			<div class="contenedor">
+				<header>Color</header>
+				<label for="btn-modal6" class="x-cerrar">X</label>
+				<div class="contenido">
+					<p class="desc">Las 5 cartas del mismo palo.</p>
+					<img src="images/jugadas/color.png" alt="">
+					<p class="puntaje">100 creditos</p>
+				</div>
+			</div>
+		</div>
+		<div class="modal7">
+			<div class="contenedor">
+				<header>Escalera</header>
+				<label for="btn-modal7" class="x-cerrar">X</label>
+				<div class="contenido">
+					<p class="desc">Igual que la escalera de color, pero no es necesario que las 5 cartas sean del mismo palo.</p>
+					<img src="images/jugadas/escalera.png" alt="">
+					<p class="puntaje">100 creditos</p>
+				</div>
+			</div>
+		</div>
+		<div class="modal8">
+			<div class="contenedor">
+				<header>Trío</header>
+				<label for="btn-modal8" class="x-cerrar">X</label>
+				<div class="contenido">
+					<p class="desc">3 cartas iguales.</p>
+					<img src="images/jugadas/trio.png" alt="">
+					<p class="puntaje">100 creditos</p>
+				</div>
+			</div>
+		</div>
+		<div class="modal9">
+			<div class="contenedor">
+				<header>Doble Pareja</header>
+				<label for="btn-modal9" class="x-cerrar">X</label>
+				<div class="contenido">
+					<p class="desc">Dos parejas de cartas iguales. A la jugada formada por 8♠ 8♣ A♠ A♣ se le llama “la mano del hombre muerto”.</p>
+					<img src="images/jugadas/doble-pareja.png" alt="">
+					<p class="puntaje">100 creditos</p>
+				</div>
+			</div>
+		</div>
+		<div class="modal10">
+			<div class="contenedor">
+				<header>Pareja</header>
+				<label for="btn-modal10" class="x-cerrar">X</label>
+				<div class="contenido">
+					<p class="desc">Una pareja de cartas iguales.</p>
+					<img src="images/jugadas/pareja.png" alt="">
+					<p class="puntaje">100 creditos</p>
+				</div>
+			</div>
+		</div>
+		<div class="modal11">
+			<div class="contenedor">
+				<header>Carta más alta</header>
+				<label for="btn-modal11" class="x-cerrar">X</label>
+				<div class="contenido">
+					<p class="desc">El As es la carta más alta.</p>
+					<img src="images/jugadas/carta-mas-alta.png" alt="">
+					<p class="puntaje">100 creditos</p>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="cuerpo">
+			<div class="juego">
+				<div class="card"><img src="images/card1.png" alt="card1"></div>
+				<div class="card"><img src="images/card1.png" alt="card2"></div>
+				<div class="card"><img src="images/card1.png" alt="card3"></div>
+				<div class="card"><img src="images/card1.png" alt="card4"></div>
+				<div class="card"><img src="images/card1.png" alt="card5"></div>
+			</div>
+		</div> -->
+	</div>
+	<script src="js/modal.js"></script>
+</body>
+</html>

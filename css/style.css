@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@media (min-width: 750px){
+	.title{
+		text-align: center;
+	}
+	.container{
+		width: 100%;
+		height: 100vh;
+		box-sizing: border-box;
+	}
+	.header{
+		display: flex;
+		width: 100%;
+		/* background: brown; */
+	}
+	.list{
+		width: 70%;
+		background: rgb(255, 255, 255);
+		display: flex;
+	}
+	.jugadas{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		list-style: none;
+		justify-content: space-evenly;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	.baraja{
+		width: 30%;
+		/* background: darkkhaki; */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.baraja img{
+		width: 150px;
+		height: 225px;
+	}
+	.jugadas li{
+		padding: 0;
+		margin: 0;
+		text-decoration: none;
+		letter-spacing: .5px;
+	}
+}
