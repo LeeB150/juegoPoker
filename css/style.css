@@ -6,6 +6,7 @@
 		box-sizing: border-box;
 	}
 	body{
+		background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 		height: 100vh;
 		box-sizing: border-box;
 	}
@@ -28,7 +29,7 @@
 	}
 	.list{
 		width: 70%;
-		background: rgb(255, 255, 255);
+		/* background: rgb(255, 255, 255); */
 		display: flex;
 	}
 	.jugadas{
