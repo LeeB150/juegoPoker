@@ -7,20 +7,21 @@
 	}
 	body{
 		background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-		height: 100vh;
-		box-sizing: border-box;
 	}
 	.title{
 		position: relative;
 		top: 0;
+		right: 5%;
 		width: 80%;
 		/* background:rgba(0,0,0,.5); */
-
+		
 		text-align: center;		
 	}
 	.container{
+		box-sizing: border-box;
+		height: 100vh;
 		width: 100%;
-		/* box-sizing: border-box; */
+		position: relative;
 	}
 	.header{
 		display: flex;
@@ -79,5 +80,27 @@
 	.card img{
 		width: 135px;
 		height: 210px;
+	}
+	/* .card:hover{
+
+	} */
+	.contBotones{
+		background: rgba(220, 20, 60, .3);
+		position: fixed;
+		bottom: 0px;
+		height: 120px;
+		width: 100%;
+
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		
+	}
+	.colBotones{
+		display: flex;
+		flex-direction: column;
+		height: 120px;
+		justify-content: center;
+		align-items: center;
 	}
 }

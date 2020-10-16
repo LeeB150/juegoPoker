@@ -12,11 +12,11 @@
 
 // window.addEventListener('click', function(e){
 //     console.log(e.target);
-//     if(e.target ==  lblmodal){
-//         modal.style.visibility = 'visible';
-//         modal.style.opacity = '1';
-//     }else if(e.target == btnCerrar){
-//         modal.style.visibility = 'hidden';
-//         modal.style.opacity = '0';
-//     }
+//         if(e.target ==  lblmodal){
+//             modal.style.visibility = 'visible';
+//             modal.style.opacity = '1';
+//         }else if(e.target == btnCerrar){
+//             modal.style.visibility = 'hidden';
+//             modal.style.opacity = '0';
+//         }
 // })
