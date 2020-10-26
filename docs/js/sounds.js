@@ -1,5 +1,4 @@
 //sonido popUP
-// let modal = document.getElementById("sound")
 let audioEtiqueta = document.querySelector("audio")
 
 function mouseDown(){
@@ -9,12 +8,10 @@ function mouseDown(){
 }
 
 //sonido popClose
-// let close = document-getElementById("soundCls")
 let audioEtiquet = document.querySelector("audio")
 
 function closePopUp(){
     document.getElementById("soundCls")
     audioEtiquet.setAttribute("src", "sounds/sonidoclick.mp3")
     audioEtiquet.play()
-    console.log(audioEtiquet)
 }

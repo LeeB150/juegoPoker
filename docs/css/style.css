@@ -96,22 +96,36 @@
 		align-items: center;
 	}
 	.juego{
-		/* background: crimson; */
 		display: flex;
 		justify-content: space-between;
-	
+		transform-style: preserve-3d;
+		
 	}
+	/* .juego:hover .card{
+		transform: rotateY(180deg);
+	} */
 	.card{
+		position: relative;
 		margin: 6px;
-	}
 
+	}
+	
 	.card img{
 		width: 135px;
 		height: 210px;
 	}
-	/* .card:hover{
+	.adelante, .atras{
+		position: absolute;
+	}
+	.adelante{
+		display: flex;
+	}
+	.atras{
+		display: none;
+		top: -23px;
+	}
+	
 
-	} */
 	.contBotones{
 		background: rgba(220, 20, 60, .3);
 		position: fixed;
