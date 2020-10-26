@@ -13,6 +13,6 @@ let audioEtiqueta = document.querySelector("audio")
 
 function mouseDown(){
     document.getElementById("sound")
-    audioEtiqueta.setAttribute("src", "../sounds/pop.mp3")
+    audioEtiqueta.setAttribute("src", "sounds/pop.mp3")
     audioEtiqueta.play()
 }
