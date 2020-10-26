@@ -12,6 +12,7 @@
 
 </head>
 <body>	
+	<div class="res">Resolución Mínima de 750px</div>
 	<div class="container">
 
 		<h1 class="title">Valor de las Jugadas</h1>	
@@ -25,25 +26,26 @@
 		<input type="checkbox" id="btn-modal8">		
 		<input type="checkbox" id="btn-modal9">		
 		<input type="checkbox" id="btn-modal10">		
-		<input type="checkbox" id="btn-modal11">		
+		<input type="checkbox" id="btn-modal11">
 		<!-- Inicio seccion cabecera -->
 		<div class="header">
 			<div class="list">
 				<ul class="jugadas">	
-					<li><label for="btn-modal" class="lbl-modal">Escalera Real</lbl></li>
-					<li><label for="btn-modal2" class="lbl-modal">Repoker</label></li>
-					<li><label for="btn-modal3" class="lbl-modal">Escalera color</label></li>
-					<li><label for="btn-modal4" class="lbl-modal">Poker</label></li>
-					<li><label for="btn-modal5" class="lbl-modal">Full</label></li>
-					<li><label for="btn-modal6" class="lbl-modal">Color</label></li>
+					<li><label for="btn-modal" id="sound" class="lbl-modal" onmousedown="mouseDown()">Escalera Real</lbl></li>
+					<li><label for="btn-modal2" id="sound" class="lbl-modal" onmousedown="mouseDown()">Repoker</label></li>
+					<li><label for="btn-modal3" id="sound" class="lbl-modal" onmousedown="mouseDown()">Escalera color</label></li>
+					<li><label for="btn-modal4" id="sound" class="lbl-modal" onmousedown="mouseDown()">Poker</label></li>
+					<li><label for="btn-modal5" id="sound" class="lbl-modal" onmousedown="mouseDown()">Full</label></li>
+					<li><label for="btn-modal6" id="sound" class="lbl-modal" onmousedown="mouseDown()">Color</label></li>
 				</ul>
 				<ul class="jugadas">
-					<li><label for="btn-modal7" class="lbl-modal">Escalera</label></li>
-					<li><label for="btn-modal8" class="lbl-modal">Trío</label></li>
-					<li><label for="btn-modal9" class="lbl-modal">Doble Pareja</label></li>
-					<li><label for="btn-modal10" class="lbl-modal">Pareja</label></li>
-					<li><label for="btn-modal11" class="lbl-modal">Carta más alta</label></li>
+					<li><label for="btn-modal7" id="sound" class="lbl-modal" onmousedown="mouseDown()">Escalera</label></li>
+					<li><label for="btn-modal8" id="sound" class="lbl-modal" onmousedown="mouseDown()">Trío</label></li>
+					<li><label for="btn-modal9" id="sound" class="lbl-modal" onmousedown="mouseDown()">Doble Pareja</label></li>
+					<li><label for="btn-modal10" id="sound" class="lbl-modal" onmousedown="mouseDown()">Pareja</label></li>
+					<li><label for="btn-modal11" id="sound" class="lbl-modal" onmousedown="mouseDown()">Carta más alta</label></li>
 				</ul>
+				<audio src="" preload="auto"></audio>				
 			</div>
 			<div class="baraja"><img src="images/card1.png"></div>
 
@@ -189,7 +191,7 @@
 		<!-- Inicio de botones funcionales -->
 		<div class="contBotones">
 			<div  class="colBotones">
-				<button type="button">Tabla de Pagos</button>
+				<button class="btnTabla" type="button">Tabla de Pagos</button>
 			</div>
 			<div class="colBotones">
 				<p>Texto de acuerdo al boton</p>
@@ -197,16 +199,17 @@
 			</div>
 			<div class="colBotones">
 				<p>APUESTA</p>
-				<input type="text">
+				<input class="apuesta" type="number">
 			</div>
 			<div class="colBotones">
 				<p>CREDITO</p>
-				<input type="text">
+				<input class="credito"  type="text">
 				<button>JUGAR</button>
 			</div>
 		</div>
 		<!-- fin de botones funcionales -->
 	</div>
 	<script src="js/modal.js"></script>
+	<script src="js/sounds.js"></script>
 </body>
 </html>

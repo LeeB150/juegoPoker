@@ -1,4 +1,4 @@
-@media screen and (min-width: 750px){
+@media(min-width: 750px){
     .modal, .modal2, .modal3, .modal4, .modal5, .modal6, .modal7, 
     .modal8, .modal9, .modal10, .modal11{
         width: 100%;
@@ -83,7 +83,7 @@
     }
 /* ------------------------------------------------------- */
     .lbl-modal{
-        background: rgba(212, 131, 131, 0.4);
+        background: rgb(212, 131, 131);
         margin-left: 10px;
         padding: 5px 7px 7px 5px; /*abajo|izquierda|derecha|arriba */
         border-radius: 15px; /*arriba izquierda|arriba derecha|abajo derecha|abajo izquierda*/
@@ -92,7 +92,9 @@
         opacity: 1;
         visibility: visible;
     }
-    
+    .lbl-modal:hover{
+        background: rgba(212, 131, 131, 0.8);
+    }
     .contenido{
         /* width: 50%; */
         display: flex;
