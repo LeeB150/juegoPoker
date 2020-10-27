@@ -13,8 +13,8 @@
 </head>
 <body>	
 	<div class="res">Resolución Mínima de 750px</div>
-	<div class="container">
 
+	<div class="container">
 		<h1 class="title">Valor de las Jugadas</h1>	
 		<input type="checkbox" id="btn-modal">		
 		<input type="checkbox" id="btn-modal2">		
@@ -31,19 +31,19 @@
 		<div class="header">
 			<div class="list">
 				<ul class="jugadas">	
-					<li><label for="btn-modal" id="sound" class="lbl-modal" onmousedown="mouseDown()">Escalera Real</lbl></li>
-					<li><label for="btn-modal2" id="sound" class="lbl-modal" onmousedown="mouseDown()">Repoker</label></li>
-					<li><label for="btn-modal3" id="sound" class="lbl-modal" onmousedown="mouseDown()">Escalera color</label></li>
-					<li><label for="btn-modal4" id="sound" class="lbl-modal" onmousedown="mouseDown()">Poker</label></li>
-					<li><label for="btn-modal5" id="sound" class="lbl-modal" onmousedown="mouseDown()">Full</label></li>
-					<li><label for="btn-modal6" id="sound" class="lbl-modal" onmousedown="mouseDown()">Color</label></li>
+					<li><label for="btn-modal" class="lbl-modal" onmousedown="mouseDown()">Escalera Real</lbl></li>
+					<li><label for="btn-modal2" class="lbl-modal" onmousedown="mouseDown()">Repoker</label></li>
+					<li><label for="btn-modal3" class="lbl-modal" onmousedown="mouseDown()">Escalera color</label></li>
+					<li><label for="btn-modal4" class="lbl-modal" onmousedown="mouseDown()">Poker</label></li>
+					<li><label for="btn-modal5" class="lbl-modal" onmousedown="mouseDown()">Full</label></li>
+					<li><label for="btn-modal6" class="lbl-modal" onmousedown="mouseDown()">Color</label></li>
 				</ul>
 				<ul class="jugadas">
-					<li><label for="btn-modal7" id="sound" class="lbl-modal" onmousedown="mouseDown()">Escalera</label></li>
-					<li><label for="btn-modal8" id="sound" class="lbl-modal" onmousedown="mouseDown()">Trío</label></li>
-					<li><label for="btn-modal9" id="sound" class="lbl-modal" onmousedown="mouseDown()">Doble Pareja</label></li>
-					<li><label for="btn-modal10" id="sound" class="lbl-modal" onmousedown="mouseDown()">Pareja</label></li>
-					<li><label for="btn-modal11" id="sound" class="lbl-modal" onmousedown="mouseDown()">Carta más alta</label></li>
+					<li><label for="btn-modal7" class="lbl-modal" onmousedown="mouseDown()">Escalera</label></li>
+					<li><label for="btn-modal8" class="lbl-modal" onmousedown="mouseDown()">Trío</label></li>
+					<li><label for="btn-modal9" class="lbl-modal" onmousedown="mouseDown()">Doble Pareja</label></li>
+					<li><label for="btn-modal10" class="lbl-modal" onmousedown="mouseDown()">Pareja</label></li>
+					<li><label for="btn-modal11" class="lbl-modal" onmousedown="mouseDown()">Carta más alta</label></li>
 				</ul>
 				<audio src="" preload="auto"></audio>				
 			</div>
@@ -56,7 +56,7 @@
 		<div class="modal">
 			<div class="contenedor">
 				<header>Escalera Real</header>
-				<label for="btn-modal" class="x-cerrar" id="soundCls" onmousedown="closePopUp()">X</label>
+				<label for="btn-modal" class="x-cerrar" onmousedown="closePopUp()">X</label>
 				<!-- <audio src="" preload="auto"></audio>				 -->
 				<div class="contenido">
 					<p class="desc">5 cartas seguidas del mismo palo desde el 10 al As.</p>
@@ -68,7 +68,7 @@
 		<div class="modal2">
 			<div class="contenedor">
 				<header>Repoker</header>
-				<label for="btn-modal2" class="x-cerrar" id="soundCls" onmousedown="closePopUp()">X</label>
+				<label for="btn-modal2" class="x-cerrar" onmousedown="closePopUp()">X</label>
 				<div class="contenido">
 					<p class="desc">4 cartas iguales más comodín. Esta combinación sólo es posible si se juega con comodín.</p>
 					<img src="images/jugadas/repoker.png" alt="">
@@ -79,7 +79,7 @@
 		<div class="modal3">
 			<div class="contenedor">
 				<header>Escalera de Color</header>
-				<label for="btn-modal3" class="x-cerrar" id="soundCls" onmousedown="closePopUp()" id="soundCls" onmousedown="closePopUp()">X</label>
+				<label for="btn-modal3" class="x-cerrar" onmousedown="closePopUp()" onmousedown="closePopUp()">X</label>
 				<div class="contenido">
 					<p class="desc">5 cartas seguidas del mismo palo. El As puede formar escalera con el Rey y con el 2 (la carta de menor valor).</p>
 					<img src="images/jugadas/escalera-de-color.png" alt="">
@@ -90,7 +90,7 @@
 		<div class="modal4">
 			<div class="contenedor">
 				<header>Poker</header>
-				<label for="btn-modal4" class="x-cerrar" id="soundCls" onmousedown="closePopUp()">X</label>
+				<label for="btn-modal4" class="x-cerrar" onmousedown="closePopUp()">X</label>
 				<div class="contenido">
 					<p class="desc">4 cartas iguales.</p>
 					<img src="images/jugadas/poker.png" alt="">
@@ -101,7 +101,7 @@
 		<div class="modal5">
 			<div class="contenedor">
 				<header>Full</header>
-				<label for="btn-modal5" class="x-cerrar" id="soundCls" onmousedown="closePopUp()">X</label>
+				<label for="btn-modal5" class="x-cerrar" onmousedown="closePopUp()">X</label>
 				<div class="contenido">
 					<p class="desc">3 cartas iguales más otras 2 iguales. Es decir, un trio y una pareja. En caso de empate, gana el que tiene el trio más alto.</p>
 					<img src="images/jugadas/Full.png" alt="">
@@ -112,7 +112,7 @@
 		<div class="modal6">
 			<div class="contenedor">
 				<header>Color</header>
-				<label for="btn-modal6" class="x-cerrar" id="soundCls" onmousedown="closePopUp()">X</label>
+				<label for="btn-modal6" class="x-cerrar" onmousedown="closePopUp()">X</label>
 				<div class="contenido">
 					<p class="desc">Las 5 cartas del mismo palo.</p>
 					<img src="images/jugadas/color.png" alt="">
@@ -123,7 +123,7 @@
 		<div class="modal7">
 			<div class="contenedor">
 				<header>Escalera</header>
-				<label for="btn-modal7" class="x-cerrar" id="soundCls" onmousedown="closePopUp()">X</label>
+				<label for="btn-modal7" class="x-cerrar" onmousedown="closePopUp()">X</label>
 				<div class="contenido">
 					<p class="desc">Igual que la escalera de color, pero no es necesario que las 5 cartas sean del mismo palo.</p>
 					<img src="images/jugadas/escalera.png" alt="">
@@ -134,7 +134,7 @@
 		<div class="modal8">
 			<div class="contenedor">
 				<header>Trío</header>
-				<label for="btn-modal8" class="x-cerrar" id="soundCls" onmousedown="closePopUp()">X</label>
+				<label for="btn-modal8" class="x-cerrar" onmousedown="closePopUp()">X</label>
 				<div class="contenido">
 					<p class="desc">3 cartas iguales.</p>
 					<img src="images/jugadas/trio.png" alt="">
@@ -145,7 +145,7 @@
 		<div class="modal9">
 			<div class="contenedor">
 				<header>Doble Pareja</header>
-				<label for="btn-modal9" class="x-cerrar" id="soundCls" onmousedown="closePopUp()">X</label>
+				<label for="btn-modal9" class="x-cerrar" onmousedown="closePopUp()">X</label>
 				<div class="contenido">
 					<p class="desc">Dos parejas de cartas iguales. A la jugada formada por 8♠ 8♣ A♠ A♣ se le llama “la mano del hombre muerto”.</p>
 					<img src="images/jugadas/doble-pareja.png" alt="">
@@ -156,7 +156,7 @@
 		<div class="modal10">
 			<div class="contenedor">
 				<header>Pareja</header>
-				<label for="btn-modal10" class="x-cerrar" id="soundCls" onmousedown="closePopUp()">X</label>
+				<label for="btn-modal10" class="x-cerrar" onmousedown="closePopUp()">X</label>
 				<div class="contenido">
 					<p class="desc">Una pareja de cartas iguales.</p>
 					<img src="images/jugadas/pareja.png" alt="">
@@ -167,7 +167,7 @@
 		<div class="modal11">
 			<div class="contenedor">
 				<header>Carta más alta</header>
-				<label for="btn-modal11" class="x-cerrar" id="soundCls" onmousedown="closePopUp()">X</label>
+				<label for="btn-modal11" class="x-cerrar" onmousedown="closePopUp()">X</label>
 				<div class="contenido">
 					<p class="desc">El As es la carta más alta.</p>
 					<img src="images/jugadas/carta-mas-alta.png" alt="">
@@ -182,21 +182,25 @@
 		<div class="cuerpo">
 			<div class="juego">
 				<div class="card">
-					<img src="images/deck/Card_Deck-13.png" alt="" class="adelante" id="adelante">
-					<img src="images/card1.png" alt="card1" class="atras" id="atras">
-				</div>
-				<!-- <div class="card">
-					<img src="images/card1.png" alt="card2">
+					<div class="atras"><img src="images/card1.png" alt="" class="imgReverso" id="rev1"></div>						
+					<div class="adelante" > <img src="images/deck/Card_Deck-15.png" alt="" class="imgCar" id="card1"></div>
 				</div>
 				<div class="card">
-					<img src="images/card1.png" alt="card3">
+					<div class="atras"><img src="images/card1.png" alt="" class="imgReverso" id="rev2"></div>						
+					<div class="adelante" > <img src="images/deck/Card_Deck-16.png" alt="" class="imgCar" id="card2"></div>
 				</div>
 				<div class="card">
-					<img src="images/card1.png" alt="card4">
+					<div class="atras"><img src="images/card1.png" alt="" class="imgReverso" id="rev3"></div>						
+					<div class="adelante" > <img src="images/deck/Card_Deck-17.png" alt="" class="imgCar" id="card3"></div>
 				</div>
 				<div class="card">
-					<img src="images/card1.png" alt="card5">
-				</div> -->
+					<div class="atras"><img src="images/card1.png" alt="" class="imgReverso" id="rev4"></div>						
+					<div class="adelante" > <img src="images/deck/Card_Deck-18.png" alt="" class="imgCar" id="card4"></div>
+				</div>
+				<div class="card">
+					<div class="atras"><img src="images/card1.png" alt="" class="imgReverso" id="rev5"></div>						
+					<div class="adelante" > <img src="images/deck/Card_Deck-19.png" alt="" class="imgCar" id="card5"></div>
+				</div>
 			</div>
 		</div>
 		<!-- Fin de seccion de cartas -->
@@ -217,7 +221,7 @@
 			<div class="colBotones">
 				<p>CREDITO</p>
 				<input class="credito"  type="text">
-				<button>JUGAR</button>
+				<button id="btnJugar">JUGAR</button>
 			</div>
 		</div>
 		<!-- fin de botones funcionales -->
