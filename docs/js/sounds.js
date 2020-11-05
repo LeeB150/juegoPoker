@@ -1,5 +1,4 @@
-let audioEtiqueta = document.querySelector("audio")
-
+let audioEtiqueta = document.querySelector("audio") 
 //sonido popUP
 function mouseDown(){
     audioEtiqueta.setAttribute("src", "sounds/pop.mp3")

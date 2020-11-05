@@ -35,6 +35,8 @@
 	}
 	body{
 		background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+		
+	
 	}
 	.title{
 		position: relative;
@@ -173,6 +175,16 @@
 	}
 	.btnTabla{
 		width: 120px;
+	}
+	.blinking{
+		animation:blinkingText 1.2s infinite;
+	}
+	@keyframes blinkingText{
+		0%{     color: #000;    }
+		49%{    color: #000; }
+		60%{    color: transparent; }
+		99%{    color:transparent;  }
+		100%{   color: #000;    }
 	}
 }
 /* responsive 1024px */
